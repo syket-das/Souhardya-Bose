@@ -1,0 +1,16 @@
+.vertical-timeline::before {
+    /* this is the vertical line */
+    background: black !important;
+  }
+  
+  .circle-black {
+    background-color: black;
+    border-radius:10px;
+    aspect-ratio: 1/1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 5px 10px;
+    width: 250px;
+  }
