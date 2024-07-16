@@ -1,8 +1,8 @@
 import './About.css';
 import { motion } from 'framer-motion';
-import aboutUs from '../../img/new/aboutUs.JPG';
 import { YouTubeEmbed } from 'react-social-media-embed';
-import sukoon1 from '../../img/new/sukoon1.JPG';
+const sukoon1 =
+  'https://res.cloudinary.com/dfglcvt2b/image/upload/v1721127155/bose/giwwk5lzeejxrnabxzoo.jpg';
 
 export default function About() {
   return (
@@ -31,7 +31,9 @@ export default function About() {
         <div className="blur" style={{ background: 'rgb(238 210 255)' }}></div>
         <div className="left flex-1 p-4 md:p-0 md:ml-10 basis-1/3">
           <motion.img
-            src={aboutUs}
+            src={
+              'https://res.cloudinary.com/dfglcvt2b/image/upload/v1721127044/bose/a3vkeesa8mixxjuwetrg.jpg'
+            }
             alt=""
             initial={{ scale: 0 }}
             whileInView={{ scale: 1 }}

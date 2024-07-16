@@ -40,25 +40,17 @@ const Contact = () => {
   return (
     <div className="contact-form" id="contact">
       {/* left side copy and paste from work section */}
-      <div className="w-left">
-        <div className="awesome text-center">
-          {/* darkMode */}
-          <span
-            style={{ color: darkMode ? 'white' : '' }}
-            className="text-lg font-bold"
-          >
-            Get in Touch{'  '}
-          </span>
-          <span className="text-lg font-bold">Contact me</span>
-          <div
-            className="blur s-blur1"
-            style={{ background: '#ABF1FF94' }}
-          ></div>
-        </div>
-      </div>
+
       {/* right side form */}
       <div className="c-right">
         <form onSubmit={handleSubmit} method="POST">
+          <h2
+            className="c-title font-bold"
+            style={{ color: darkMode && 'white' }}
+          >
+            Contact. <span>Me</span>
+          </h2>
+
           <input
             type="text"
             name="user_name"

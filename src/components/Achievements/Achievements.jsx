@@ -1,6 +1,8 @@
 import React from 'react';
-import pic1 from '../../img/NEP/IMG_20231102_222246.jpg';
-import pic3 from '../../img/NEP/With Chairpeson of UGC.png';
+const pic1 =
+  'https://res.cloudinary.com/dfglcvt2b/image/upload/v1721127260/bose/zjgv4qsdu261qo7m1nn7.jpg';
+const pic3 =
+  'https://res.cloudinary.com/dfglcvt2b/image/upload/v1721127342/bose/q8pyvrbjh06td6fkwmlr.png';
 
 export default function () {
   return (
